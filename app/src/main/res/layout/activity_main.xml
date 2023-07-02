@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Edtpeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu peso"
+        android:inputType="numberDecimal"
+        android:maxLength="6"/>
+
+
+    <EditText
+        android:id="@+id/Edtaltura"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/Edtpeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite sua altura"
+        android:inputType="numberDecimal"
+        android:maxLength="6"/>
+
+
+/>
+    <TextView
+        android:id="@+id/texto"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descubra seu IMC"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+
+       />
+<Button
+    android:id="@+id/btncalcular"
+    android:text="Calcular"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
